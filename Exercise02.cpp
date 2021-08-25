@@ -1,3 +1,10 @@
+//Name - M.D.O.N DHARMASIRI
+//IT NO - IT21103704
+//Campus - Y1S2 3.2 (MALABE)
+//Tutorial 7
+//Exercise 2
+
+
 #include "Rectangle.h"
 #include "Circle.h"
 #include <iostream>
@@ -23,7 +30,28 @@ int main() {
    // 7. Delete the Rectangle Object from memory
    // 8. Delete the Circle Object from memory
   
-  
+  //1
+  Rectangle *r;
+  //2
+  r = new Rectangle(length, width);
+
+  //3
+  Circle *c;
+  //4
+  c - new Circle(radius);
+
+  //5
+  r -> display();
+  //6
+  c -> display();
+
+  //7
+  delete r;
+  //8
+  delete c;
+   
+
+
    // ============ DO NOT CHANGE THE CODE BELOW ===================
    cout << "End of Program" << endl;
   

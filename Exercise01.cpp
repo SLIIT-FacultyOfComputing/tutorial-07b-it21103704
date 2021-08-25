@@ -1,3 +1,9 @@
+//Name - M.D.O.N DHARMASIRI
+//IT NO - IT21103704
+//Campus - Y1S2 3.2 (MALABE)
+//Tutorial 7
+//Exercise 1
+
 #include <iostream>
 #include "Item.h"
 using namespace std;
